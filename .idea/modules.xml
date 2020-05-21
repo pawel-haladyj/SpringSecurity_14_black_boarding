@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-security14_black_boarding.iml" filepath="$PROJECT_DIR$/.idea/spring-security14_black_boarding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security14_black_boarding_as/spring-security14_black_boarding_as.iml" filepath="$PROJECT_DIR$/spring-security14_black_boarding_as/spring-security14_black_boarding_as.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security14_black_boarding_rs/spring-security14_black_boarding_rs.iml" filepath="$PROJECT_DIR$/spring-security14_black_boarding_rs/spring-security14_black_boarding_rs.iml" />
+    </modules>
+  </component>
+</project>

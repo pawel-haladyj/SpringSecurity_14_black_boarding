@@ -10,3 +10,5 @@ ResourceServ PORT 8301
 http://localhost:8301/resource
 +Header Authorization: => Bearer {token_value}
 no auth, inherit from parent
+
+

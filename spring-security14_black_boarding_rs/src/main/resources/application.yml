@@ -1,0 +1,14 @@
+server:
+  port: 8301
+
+spring:
+  application:
+    name: resource_server
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8300/oauth/check_token
+    client:
+      client-id: resourceserver
+      client-secret: 12345

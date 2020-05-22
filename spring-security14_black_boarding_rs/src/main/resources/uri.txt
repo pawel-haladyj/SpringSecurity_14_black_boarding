@@ -1,0 +1,12 @@
+AuthServ PORT 8300
+localhost:8300/oauth/token?grant_type=password&username=john&password=12345&scope=read
++basic auth: => client
+
+AuthServ PORT 8300
+localhost:8300/oauth/check_token?token={token_value}
++basic auth: => resoureverificationclient (vault)
+
+ResourceServ PORT 8301
+http://localhost:8301/resource
++Header Authorization: => Bearer {token_value}
+no auth, inherit from parent
